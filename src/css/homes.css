@@ -1,0 +1,68 @@
+.adds_div {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #f4fcff;
+}
+
+.adds_div .adds_box1 {
+  width: 560px;
+  height: 600px;
+  overflow: hidden;
+  transition: ease 2s;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.adds_div .adds_box1:hover {
+  transform: scale(1.05);
+  transition: opacity 0.5s ease;
+  /* transform: translate(10px, 10px); Adjust the values as desired */
+  transition: transform 0.3s ease;
+}
+
+.adds_div .adds_box2 {
+  width: 560px;
+  height: 285px;
+  overflow: hidden;
+  transition: ease 2s;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.adds_div .adds_box2:hover {
+  transform: scale(1.05);
+  transition: opacity 0.5s ease;
+  /* transform: translate(10px, 10px); Adjust the values as desired */
+  transition: transform 0.3s ease;
+}
+
+.adds_div .adds_box3 {
+  width: 265px;
+  height: 285px;
+  margin-top: 30px;
+  transition: ease 2s;
+  overflow: hidden;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.adds_div .adds_box3:hover {
+  transform: scale(1.05);
+  transition: opacity 0.5s ease;
+  /* transform: translate(10px, 10px); Adjust the values as desired */
+  transition: transform 0.3s ease;
+}
+
+.adds_div .adds_box4 {
+  width: 265px;
+  height: 285px;
+  margin-top: 30px;
+  transition: ease 2s;
+  overflow: hidden;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.adds_div .adds_box4:hover {
+  transform: scale(1.05);
+  transition: opacity 0.5s ease;
+  /* transform: translate(10px, 10px); Adjust the values as desired */
+  transition: transform 0.3s ease;
+}

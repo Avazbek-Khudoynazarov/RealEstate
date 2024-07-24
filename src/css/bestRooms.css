@@ -1,0 +1,86 @@
+.best-config {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.title-container {
+  margin-bottom: 20px;
+}
+
+.main-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mySwiper2 {
+  width: 80% !important;
+  height: 350px !important;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s;
+}
+
+.swiper-slide:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide:hover .more-button {
+  opacity: 1;
+}
+
+.more-button {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.more-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
