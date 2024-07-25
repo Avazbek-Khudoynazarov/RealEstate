@@ -5,10 +5,12 @@ import "../css/footer.css";
 import "../css/homes.css";
 import "../css/bestRooms.css";
 import "../css/allProducts.css";
+import "../css/board.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./screens/HomePage";
 import Products from "./screens/ProductPage";
+import BoardPage from "./screens/BoardPage";
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/allProducts" element={<Products />} />
-        {/* <Route path="/other-page" element={<Others />} /> */}
+        <Route path="/board" element={<BoardPage />} />
         //TODO
       </Routes>
     </Router>

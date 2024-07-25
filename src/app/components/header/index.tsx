@@ -66,11 +66,9 @@ export default function NavbarHome() {
             Room
           </Link>
           <Link
-            className={`main-link ${
-              activeLink === "/other-page" ? "active" : ""
-            }`}
-            to="/other-page"
-            onClick={() => handleSetActiveLink("#home-navbar")}
+            className={`main-link ${activeLink === "/board" ? "active" : ""}`}
+            to="/board"
+            onClick={() => handleSetActiveLink("/board")}
           >
             Board
           </Link>
